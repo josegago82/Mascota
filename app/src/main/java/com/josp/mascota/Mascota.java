@@ -4,6 +4,13 @@ public class Mascota {
     private int fotomascota;
     private int hueso;
     private String nombre;
+
+    public Mascota(int fotomascota, String puntuacion, int huesoamarillo) {
+        this.fotomascota = fotomascota;
+        this.puntuacion = puntuacion;
+        this.huesoamarillo = huesoamarillo;
+    }
+
     private String puntuacion;
     private int huesoamarillo;
 
