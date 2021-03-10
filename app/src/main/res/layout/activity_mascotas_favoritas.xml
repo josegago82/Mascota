@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MascotasFavoritas">
+
+    <include
+        android:id="@+id/miActionBar"
+        layout="@layout/actionbar">
+    </include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="80dp"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        >
+
+        <ImageView
+            android:id="@+id/imgMascota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dog_icon"
+            >
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:id="@+id/imgHueso"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/hueso"
+                >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/tvNombreMascota"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:text="@string/nombremascota"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:paddingBottom="10dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvMascotaScore"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text="@string/huesoscore"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:paddingBottom="10dp">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/imgHuesoAmarillo"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hueso_amarillo"
+                >
+            </ImageView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+    <ImageView
+        android:id="@+id/imgMascota2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dog_icon"
+        >
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:id="@+id/imgHueso2"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/hueso"
+            >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/tvNombreMascota2"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:text="@string/nombremascota"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:paddingBottom="10dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvMascotaScore2"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text="@string/huesoscore"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:paddingBottom="10dp">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/imgHuesoAmarillo2"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hueso_amarillo"
+            >
+        </ImageView>
+
+    </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+    <ImageView
+        android:id="@+id/imgMascota3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dog_icon"
+        >
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:id="@+id/imgHueso3"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/hueso"
+            >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/tvNombreMascota3"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:text="@string/nombremascota"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:paddingBottom="10dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvMascotaScore3"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text="@string/huesoscore"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:paddingBottom="10dp">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/imgHuesoAmarillo3"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hueso_amarillo"
+            >
+        </ImageView>
+
+    </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/imgMascota4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dog_icon"
+            >
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:id="@+id/imgHueso4"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/hueso"
+                >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/tvNombreMascota4"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:text="@string/nombremascota"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:paddingBottom="10dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvMascotaScore4"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text="@string/huesoscore"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:paddingBottom="10dp">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/imgHuesoAmarillo4"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hueso_amarillo"
+                >
+            </ImageView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
