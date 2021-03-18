@@ -1,18 +1,51 @@
 package com.josp.mascota;
 
 public class Mascota {
+    public int Id;
+    private int puntuacion;
+    private int huesoamarillo;
     private int fotomascota;
     private int hueso;
     private String nombre;
 
-    public Mascota(int fotomascota, String puntuacion, int huesoamarillo) {
+    public Mascota(int id, int fotomascota, int hueso, String nombre, int puntuacion, int huesoamarillo) {
+        Id = id;
+        this.fotomascota = fotomascota;
+        this.hueso = hueso;
+        this.nombre = nombre;
+        this.puntuacion = puntuacion;
+        this.huesoamarillo = huesoamarillo;
+    }
+
+    public Mascota(int fotomascota, String nombre, int huesoamarillo) {
+        this.fotomascota = fotomascota;
+        this.nombre = nombre;
+        this.huesoamarillo = huesoamarillo;
+    }
+
+    public Mascota(int fotomascota, int hueso, String nombre, int puntuacion, int huesoamarillo) {
+        this.fotomascota = fotomascota;
+        this.hueso = hueso;
+        this.nombre = nombre;
+        this.puntuacion = puntuacion;
+        this.huesoamarillo = huesoamarillo;
+    }
+
+    public Mascota(int fotomascota, int puntuacion, int huesoamarillo) {
         this.fotomascota = fotomascota;
         this.puntuacion = puntuacion;
         this.huesoamarillo = huesoamarillo;
     }
 
-    private String puntuacion;
-    private int huesoamarillo;
+    public Mascota() {
+
+    }
+
+    public Mascota(String nombre, int puntuacion, int fotomascota) {
+        this.nombre = nombre;
+        this.puntuacion = puntuacion;
+        this.fotomascota = fotomascota;
+    }
 
     public int getFotomascota() {
         return fotomascota;
@@ -20,14 +53,6 @@ public class Mascota {
 
     public void setFotomascota(int fotomascota) {
         this.fotomascota = fotomascota;
-    }
-
-    public Mascota(int fotomascota, int hueso, String nombre, String puntuacion, int huesoamarillo) {
-        this.fotomascota = fotomascota;
-        this.hueso = hueso;
-        this.nombre = nombre;
-        this.puntuacion = puntuacion;
-        this.huesoamarillo = huesoamarillo;
     }
 
     public int getHueso() {
@@ -46,16 +71,24 @@ public class Mascota {
         this.nombre = nombre;
     }
 
-    public String getPuntuacion() {
+    public int getPuntuacion() {
         return puntuacion;
     }
 
-    public void setPuntuacion(String puntuacion) {
+    public void setPuntuacion(int puntuacion) {
         this.puntuacion = puntuacion;
     }
 
     public int getHuesoamarillo() {
         return huesoamarillo;
+    }
+
+    public int getId() {
+        return Id;
+    }
+
+    public void setId(int id) {
+        Id = id;
     }
 
     public void setHuesoamarillo(int huesoamarillo) {
