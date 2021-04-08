@@ -53,13 +53,13 @@ public class  PerfilFragment extends Fragment {
 
         mascotasperfil.add(new Mascota(R.drawable.dog_icon, 2, R.drawable.hueso_amarillo));
         mascotasperfil.add(new Mascota(R.drawable.dog_icon, 4, R.drawable.hueso_amarillo));
-        mascotasperfil.add(new Mascota(R.drawable.dog_icon, 5, R.drawable.hueso_amarillo));
+        mascotasperfil.add(new Mascota(R.drawable.dog_icon, 1, R.drawable.hueso_amarillo));
         mascotasperfil.add(new Mascota(R.drawable.dog_icon, 6, R.drawable.hueso_amarillo));
         mascotasperfil.add(new Mascota(R.drawable.dog_icon, 2, R.drawable.hueso_amarillo));
         mascotasperfil.add(new Mascota(R.drawable.dog_icon, 1, R.drawable.hueso_amarillo));
         mascotasperfil.add(new Mascota(R.drawable.dog_icon, 3, R.drawable.hueso_amarillo));
         mascotasperfil.add(new Mascota(R.drawable.dog_icon, 4, R.drawable.hueso_amarillo));
-        mascotasperfil.add(new Mascota(R.drawable.dog_icon, 5, R.drawable.hueso_amarillo));
+        mascotasperfil.add(new Mascota(R.drawable.dog_icon, 1, R.drawable.hueso_amarillo));
 
     }
 }

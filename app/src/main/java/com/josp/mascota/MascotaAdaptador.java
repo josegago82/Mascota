@@ -2,6 +2,7 @@ package com.josp.mascota;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -47,6 +48,7 @@ public class MascotaAdaptador extends RecyclerView.Adapter<MascotaAdaptador.Masc
             public void onClick(View v) {
                 Toast.makeText(activity, mascota.getNombre(), Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(activity, MascotasFavoritas.class);
+                intent.putExtra(activity.getResources().getString(R.string.nombremascota),mascota.getNombre());
                 activity.startActivity(intent);
             }
         });
