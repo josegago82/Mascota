@@ -32,11 +32,7 @@ public class PerfilAdaptador extends RecyclerView.Adapter<PerfilAdaptador.Perfil
     public void onBindViewHolder(@NonNull PerfilViewHolder perfilViewHolder, int position) {
         Mascota mascota = mascotas.get(position);
         perfilViewHolder.imgMascota.setImageResource(mascota.getFotomascota());
-<<<<<<< HEAD
         perfilViewHolder.tvMascotaScore.setText(String.valueOf(mascota.getPuntuacion()));
-=======
-        perfilViewHolder.tvMascotaScore.setText(mascota.getPuntuacion());
->>>>>>> origin/master
         perfilViewHolder.imgHuesoAmarillo.setImageResource(mascota.getHuesoamarillo());
     }
 
@@ -45,19 +41,12 @@ public class PerfilAdaptador extends RecyclerView.Adapter<PerfilAdaptador.Perfil
         return mascotas.size();
     }
 
-<<<<<<< HEAD
     public static class PerfilViewHolder extends RecyclerView.ViewHolder {
 
         private final ImageView imgMascota;
         private final TextView tvMascotaScore;
         private final ImageView imgHuesoAmarillo;
-=======
-    public static class PerfilViewHolder extends RecyclerView.ViewHolder{
 
-        private ImageView imgMascota;
-        private TextView tvMascotaScore;
-        private ImageView imgHuesoAmarillo;
->>>>>>> origin/master
 
         public PerfilViewHolder(@NonNull View itemView) {
             super(itemView);
